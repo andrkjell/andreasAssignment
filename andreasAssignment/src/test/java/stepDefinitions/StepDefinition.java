@@ -22,6 +22,7 @@ public class StepDefinition {
 	    WebDriver driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.get("https://login.mailchimp.com/signup/");
+	    test123 commnittest
 	}
 	@Given ("I have entered {string}")
 	public void i_have_entered(String email) {
